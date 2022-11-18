@@ -10,10 +10,7 @@ class HomeScreen extends StatelessWidget {
         alignment: Alignment.topRight,
         padding: const EdgeInsets.all(10.0),
         child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const EditScreen()));
-            },
+            onTap: () {},
             child: Ink.image(
               image: const NetworkImage(
                   'https://cdn-icons-png.flaticon.com/512/2921/2921222.png'),
